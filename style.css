@@ -1,0 +1,179 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: lightcyan; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-size: 50px;
+  
+}
+h2{
+  backgroud-color:black;
+  
+}
+#openingText {
+  font-family: "Bebas Neue", serif;
+  color: white;
+  margin-left: 30%;
+  margin-right: 30%;
+  
+  font-size: 20pt;
+}
+.navbar{
+background-color: rgb(153, 209, 153);
+color: whitesmoke;
+font-family: 'Bebas Neue', cursive;
+text-decoration: none;
+font-size: 22px;
+display: flex;
+justify-content: space-around;
+height: 3%;
+padding: 1%;
+width: 100%
+margin 5%; 
+width: 100%;
+/* position: fixed; */
+top: 0;
+left: 0;
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 191, 255, 0.507);
+  color:whitesmoke; 
+}
+
+
+ button { 
+  margin-top: 5px;
+  border-radius: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family:'Arial';
+   font-style:"bold";
+  text-transform:uppercase;
+  border:0.16em solid #942192;
+  color: #942192;
+  background-color: white;
+  top: 50%;
+  width: 50%;
+  
+}
+button:hover {
+  background-color: #d9cafe;
+  color: white;
+  border:0.16em solid rgba(216, 112, 147, 0.096);
+  
+}
+
+button:active {
+  background-color: rgb(135, 78, 254);
+  box-shadow: 0 5px #666;
+  transform: translateY(15px);
+}
+img{
+  max-width:100%;
+}
+#rectangle {
+  height: 50px;
+  width: 1000px;
+  background-color: #004d65;
+}
+
+#takeActionDiv {
+  background-color: #caf0fe;
+  padding: 10%;
+  color:black;
+ 
+}
+
+
+
+#plastic{
+  color: black;
+  font-family: 'Playfair Display', Times, serif;
+  
+  
+}
+#plastictext{
+  color:black;
+ 
+  
+  
+}
+
+#factgeneratortitle{
+  text-align: center;
+  color: black;
+   background-color: lightcyan;
+  padding: 10%;
+  color:black;
+}
+
+#generator{
+  color:black;
+}
+
+#resize{
+  max-width:40%;
+  
+}
+
+
+
+
+
+
+.fixed-bg {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: table;
+}
+
+.fixed-bg h1 {
+  display: table-cell;
+  vertical-align: middle;
+  color: rgb(255, 255, 255);
+  font-size: 800%;
+  font-weight: lighter;
+}
+
+.scroll-bg {
+  background-color: rgb(235, 244, 252);
+  padding: 10px 70px;
+  color: rgb(1, 1, 43);
+  
+}
+
+.bg-1 {
+  
+  background-image: url('assets/prof.jpg');
+}
+
+.bg-2{
+  background-image: url('assets/takeaction.jpg');
+}
+
+.bg-3{
+  background-image:url('assets/importance.jpg');
+}
+
+.bg-4{
+  background-image:url('assets/entangled.jpeg');
+}
+.bg-5{
+  background-image:url('assets/global.jpg');
+}
